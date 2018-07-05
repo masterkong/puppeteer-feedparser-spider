@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-feedparser-spider",
+  "version": "1.0.0",
+  "description": "puppeteer feedparser spider",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "feedparser"
+  ],
+  "author": "masterkong",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "feedparser": "^2.2.9",
+    "jsdom": "^11.11.0",
+    "request": "^2.87.0"
+  }
+}
