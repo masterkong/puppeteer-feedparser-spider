@@ -5,11 +5,11 @@ const FeedparserTask = require('./job/feedparser_task');
 /**
  * Puppeteer解析网页信息
  */
-// PuppeteerTask('https://36kr.com/').then(function(result) {
-//     console.log('PuppeteerTask',result);
-// }).catch(function(error) {
-//     console.log('PuppeteerTask error:', error);
-// });
+PuppeteerTask('https://36kr.com/').then(function(result) {
+    console.log('PuppeteerTask',result);
+}).catch(function(error) {
+    console.log('PuppeteerTask error:', error);
+});
 
 /**
  * Feedparser解析XML信息
